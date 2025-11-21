@@ -29,42 +29,22 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Enterprise Network Security Solution',
+    title: 'Full-Stack Web Application',
     role: 'Full Stack Developer',
-    period: 'June 2023 - September 2024',
-    description: 'Engineered an enterprise-grade network security application serving 12+ corporate clients with 99.9% security compliance.',
+    period: 'Recent Project',
+    description: 'Developed a complete full-stack web application with RESTful backend and React frontend, incorporating AI-assisted development practices.',
     achievements: [
-      'Implemented OAuth 2.0 and JWT authentication, reducing unauthorized access attempts by 85%',
-      'Designed and delivered 15+ RESTful APIs with Spring Boot, achieving 99% uptime for 8,000+ daily requests',
-      'Constructed modular microservices architecture with Factory and Singleton patterns, decreasing deployment failures by 15%',
-      'Established automated CI/CD pipeline using Jenkins, cutting deployment time by 50% and enabling 3x more frequent releases',
-      'Expanded test coverage from 65% to 92% using JUnit and Mockito, reducing post-release bugs by 60%',
-      'Facilitated bi-weekly code reviews, resulting in 30% reduction in technical debt',
-      'Guided 3 junior developers through 4 major releases, increasing team velocity by 35%',
+      'Developed RESTful backend using Spring Boot and MySQL with CRUD operations; applied DSA basics and OOP design patterns',
+      'Created React.js frontend with clean code practices; used AI-assisted code review and debugging to improve code quality, fix logic issues, and maintain consistency',
+      'Leveraged AI debugging tools to speed up bug identification, refine code structure, and enhance overall maintainability',
+      'Designed normalized database schema and tested APIs using Postman; documented workflows for seamless team collaboration',
     ],
-    technologies: ['Java 11', 'Spring Boot', 'OAuth 2.0', 'JWT', 'RESTful APIs', 'Microservices', 'Jenkins', 'JUnit', 'Mockito'],
+    technologies: ['Spring Boot', 'React.js', 'MySQL', 'REST APIs', 'AI-Assisted Development', 'Postman', 'Git'],
     stats: [
-      { icon: <Users size={18} />, label: 'Corporate Clients', value: '12+' },
-      { icon: <LineChart size={18} />, label: 'Security Compliance', value: '99.9%' },
-      { icon: <CircleDot size={18} />, label: 'API Uptime', value: '99%' },
-      { icon: <GitBranch size={18} />, label: 'Major Releases', value: '4' },
-    ]
-  },
-  {
-    title: 'Healthcare Analytics Platform',
-    role: 'Backend Developer',
-    period: 'April 2023 - June 2024',
-    description: 'Architected a microservices-based healthcare platform using Spring Cloud and React.js, enabling 4,000+ daily users across 8 healthcare facilities.',
-    achievements: [
-      'Architected microservices-based healthcare platform using Spring Cloud and React.js',
-      'Orchestrated real-time data processing pipeline handling 800K+ events daily with 99.7% delivery reliability',
-    ],
-    technologies: ['Spring Cloud', 'React.js', 'Real-time Processing', 'Microservices'],
-    stats: [
-      { icon: <Users size={18} />, label: 'Daily Users', value: '4,000+' },
-      { icon: <LineChart size={18} />, label: 'Delivery Reliability', value: '99.7%' },
-      { icon: <CircleDot size={18} />, label: 'Healthcare Facilities', value: '8' },
-      { icon: <GitBranch size={18} />, label: 'Daily Events Processed', value: '800K+' },
+      { icon: <CircleDot size={18} />, label: 'CRUD Operations', value: 'Full' },
+      { icon: <GitBranch size={18} />, label: 'Code Quality', value: 'High' },
+      { icon: <LineChart size={18} />, label: 'Maintainability', value: 'Enhanced' },
+      { icon: <Users size={18} />, label: 'Collaboration', value: 'Seamless' },
     ]
   },
 ];
