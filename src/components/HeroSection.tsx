@@ -75,17 +75,17 @@ export default function HeroSection() {
             Devi Sri Prasad Reddy
           </h1>
           <h2 className="text-2xl md:text-4xl font-semibold mb-6 text-tech-blue-light dark:text-tech-highlight animate-fade-in-up" style={{ animationDelay: '300ms' }}>
-            <span className="font-mono">{'{'}</span> Full Stack Java Developer <span className="font-mono">{'}'}</span>
+            <span className="font-mono">{'{'}</span> Full Stack Developer <span className="font-mono">{'}'}</span>
           </h2>
           <div className="text-xl md:text-2xl mb-8 animate-fade-in-up" style={{ animationDelay: '600ms' }}>
             I'm a{' '}
-            <TypedText texts={["Java expert.", "Spring Boot developer.", "microservices architect.", "React.js enthusiast.", "passionate coder."]} />
+            <TypedText texts={["React developer.", "problem solver.", "backend architect.", "AI enthusiast.", "passionate coder."]} />
           </div>
           
           <p className="text-lg mb-10 max-w-2xl animate-fade-in-up" style={{ animationDelay: '900ms' }}>
-            Building enterprise-level applications with Spring Boot microservices
-            architecture and React.js. Demonstrated track record of creating
-            scalable solutions that boost performance and user engagement.
+            Building full-stack applications with modern technologies including React, 
+            Spring Boot, and AI integration. Passionate about creating scalable solutions 
+            with clean code practices and innovative problem-solving.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-12 animate-fade-in-up" style={{ animationDelay: '1200ms' }}>
@@ -118,7 +118,7 @@ export default function HeroSection() {
               <span>+91 7989563371</span>
             </a>
             <a 
-              href="https://linkedin.com/in/DeviSriPrasad" 
+              href="https://www.linkedin.com/in/devi-sri-prasad-reddy-178303262" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-tech-gray hover:text-tech-accent transition-colors flex items-center gap-1"

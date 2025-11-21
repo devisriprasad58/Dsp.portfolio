@@ -48,14 +48,14 @@ export default function AboutSection() {
             <div className="h-1 w-20 bg-tech-accent mb-8 scroll-animate" style={{ transitionDelay: '100ms' }}></div>
             
             <p className="text-lg mb-6 scroll-animate" style={{ transitionDelay: '200ms' }}>
-              I'm a Full Stack Java Developer with expertise in building enterprise-level 
-              applications using Spring Boot microservices architecture and React.js.
+              I'm a Full Stack Developer with expertise in building modern web applications 
+              using React, Spring Boot, and AI technologies.
             </p>
             
             <p className="text-lg mb-6 scroll-animate" style={{ transitionDelay: '300ms' }}>
-              With a demonstrated track record of creating scalable solutions, I've enhanced system 
-              performance by 30% and improved user engagement by 25%. I'm proficient in Agile methodologies, 
-              test-driven development, and CI/CD pipelines.
+              I specialize in developing RESTful APIs, implementing AI-powered features, and creating 
+              responsive user interfaces. Proficient in Agile methodologies, code review practices, 
+              and collaborative development workflows.
             </p>
             
             <p className="text-lg scroll-animate" style={{ transitionDelay: '400ms' }}>
@@ -77,7 +77,7 @@ export default function AboutSection() {
                 name: <span className="code-string">"Devi Sri Prasad Reddy"</span>,
               </span>
               <span className="code-line pl-4">
-                role: <span className="code-string">"Full Stack Java Developer"</span>,
+                role: <span className="code-string">"Full Stack Developer"</span>,
               </span>
               <span className="code-line pl-4">
                 location: <span className="code-string">"Hyderabad, India"</span>,
@@ -86,16 +86,16 @@ export default function AboutSection() {
                 experience: {"{"}
               </span>
               <span className="code-line pl-8">
-                java: <span className="code-string">"Expert"</span>,
+                react: <span className="code-string">"Advanced"</span>,
               </span>
               <span className="code-line pl-8">
-                springBoot: <span className="code-string">"Advanced"</span>,
+                javascript: <span className="code-string">"Proficient"</span>,
               </span>
               <span className="code-line pl-8">
-                microservices: <span className="code-string">"Proficient"</span>,
+                apis: <span className="code-string">"Expert"</span>,
               </span>
               <span className="code-line pl-8">
-                reactJs: <span className="code-string">"Intermediate+"</span>,
+                ai: <span className="code-string">"Intermediate+"</span>,
               </span>
               <span className="code-line pl-4">
                 {"}"},
@@ -104,16 +104,16 @@ export default function AboutSection() {
                 achievements: [
               </span>
               <span className="code-line pl-8">
-                <span className="code-string">"Enhanced system performance by 30%"</span>,
+                <span className="code-string">"Built RESTful APIs with Spring Boot"</span>,
               </span>
               <span className="code-line pl-8">
-                <span className="code-string">"Improved user engagement by 25%"</span>,
+                <span className="code-string">"Integrated AI-powered features"</span>,
               </span>
               <span className="code-line pl-8">
-                <span className="code-string">"Reduced deployment time by 50%"</span>,
+                <span className="code-string">"Improved code quality with AI tools"</span>,
               </span>
               <span className="code-line pl-8">
-                <span className="code-string">"Increased test coverage from 65% to 92%"</span>
+                <span className="code-string">"Enhanced team collaboration workflows"</span>
               </span>
               <span className="code-line pl-4">
                 ],
@@ -122,16 +122,16 @@ export default function AboutSection() {
                 focusAreas: [
               </span>
               <span className="code-line pl-8">
-                <span className="code-string">"Enterprise Applications"</span>,
+                <span className="code-string">"Full-Stack Development"</span>,
               </span>
               <span className="code-line pl-8">
-                <span className="code-string">"Microservices Architecture"</span>,
+                <span className="code-string">"AI Integration"</span>,
               </span>
               <span className="code-line pl-8">
-                <span className="code-string">"Cloud Computing"</span>,
+                <span className="code-string">"API Development"</span>,
               </span>
               <span className="code-line pl-8">
-                <span className="code-string">"DevOps Practices"</span>
+                <span className="code-string">"Clean Code Practices"</span>
               </span>
               <span className="code-line pl-4">
                 ]

@@ -15,52 +15,54 @@ interface SkillCategory {
 
 const skills: SkillCategory[] = [
   {
-    category: 'Programming',
+    category: 'Languages',
     skills: [
-      { name: 'Java 8/11', level: 95 },
-      { name: 'Python 3.x', level: 80 },
-      { name: 'JavaScript', level: 85 },
-      { name: 'SQL', level: 90 },
+      { name: 'JavaScript', level: 90 },
+      { name: 'TypeScript', level: 85 },
+      { name: 'Python', level: 80 },
+      { name: 'Java', level: 85 },
+      { name: 'SQL', level: 85 },
     ],
   },
   {
     category: 'Frontend',
     skills: [
-      { name: 'React.js', level: 85 },
-      { name: 'HTML5', level: 90 },
-      { name: 'CSS3', level: 85 },
+      { name: 'React 18+', level: 90 },
+      { name: 'Angular', level: 75 },
+      { name: 'React Router', level: 85 },
+      { name: 'Tailwind CSS', level: 90 },
     ],
   },
   {
-    category: 'Backend',
+    category: 'Backend & APIs',
     skills: [
-      { name: 'Spring Boot', level: 95 },
-      { name: 'Spring Cloud', level: 90 },
-      { name: 'Microservices', level: 92 },
-      { name: 'REST APIs', level: 95 },
+      { name: 'REST APIs', level: 90 },
+      { name: 'API Integration', level: 88 },
+      { name: 'PostgreSQL', level: 85 },
     ],
   },
   {
-    category: 'Database',
+    category: 'AI/LLM',
     skills: [
-      { name: 'MySQL', level: 90 },
-      { name: 'ORM', level: 85 },
+      { name: 'Google Gemini', level: 80 },
+      { name: 'LLM API Integration', level: 82 },
+      { name: 'Prompt Engineering', level: 85 },
+      { name: 'AI-Assisted Dev', level: 88 },
     ],
   },
   {
     category: 'Tools',
     skills: [
-      { name: 'Git', level: 88 },
-      { name: 'GitHub', level: 90 },
-      { name: 'BitBucket', level: 85 },
-      { name: 'JIRA', level: 92 },
-      { name: 'IntelliJ IDEA', level: 95 },
+      { name: 'Git', level: 90 },
+      { name: 'GitHub', level: 92 },
+      { name: 'Postman', level: 88 },
+      { name: 'Agile/SDLC', level: 85 },
     ],
   },
 ];
 
 export default function SkillsSection() {
-  const [activeTab, setActiveTab] = useState('Programming');
+  const [activeTab, setActiveTab] = useState('Languages');
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: false,
@@ -72,7 +74,7 @@ export default function SkillsSection() {
         <h2 className="text-3xl font-bold mb-2 text-center scroll-animate">Technical Expertise</h2>
         <div className="h-1 w-20 bg-tech-accent mx-auto mb-12 scroll-animate" style={{ transitionDelay: '100ms' }}></div>
         
-        <Tabs defaultValue="Programming" className="w-full max-w-4xl mx-auto">
+        <Tabs defaultValue="Languages" className="w-full max-w-4xl mx-auto">
           <TabsList className="grid grid-cols-2 md:grid-cols-5 mb-8">
             {skills.map((category) => (
               <TabsTrigger 
